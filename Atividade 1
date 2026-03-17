@@ -1,0 +1,47 @@
+!DOCTYPE html>
+<html lang="pt-BR">
+<head><
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CEEP</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 20px;
+            background-color: #f4f4f9;
+            color: black;
+        }
+        h1 {
+        color: black;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+        h2 {
+            color: #919191;
+        }
+        destaque {
+        color: black;
+        }
+        p {font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;}
+    </style>
+</head>
+<body>
+
+    <h1>Abc fc.</h1>
+
+    <p>O MAIOR TIME DO MUNDO.</p>
+    
+<img src="data:image/png;base64,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" alt="">
+    <h2>O ABC Futebol Clube não é só um time — é parte da história e do coração de quem vive em Natal. Desde 1915, o clube vem construindo uma trajetória cheia de momentos marcantes, alegrias e desafios, sempre acompanhado por uma torcida apaixonada que faz a diferença.</strong></p></h2>
+    <h2>O ABC Futebol Clube também é conhecido por uma das maiores rivalidades do futebol nordestino: o clássico contra o América Futebol Clube (RN). Esse confronto, chamado de “Clássico Rei”, mexe com toda a cidade de Natal e para o estado em dias de jogo.</h2> 
+<h3>O instagram do clube</h3>
+    <a href="https://www.instagram.com/abcfc" target="_blank">
+    Ir para o Instagram do ABC
+  </a>
+  <h3>SITE OFICIAL</h3>
+ <a href="https://www.abcfc.com.br/" target="_blank">
+  Ir para o site oficial do ABC
+</a>
+
+</body>
+</html>
