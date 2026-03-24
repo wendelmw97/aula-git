@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minha página</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background: linear-gradient(135deg, #000000, #15549c);
+            color: #333;
+        }
+        header {
+            text-align: center;
+            padding: 30px;
+            color: white;
+        }
+        header img {
+            width: 100%;
+            max-width: 600px;
+            display: block;
+            margin: 20px auto;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.3);
+        }
+        section {
+            background: white;
+            margin: 20px;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0px 0px 10px rgba(0,0,0,0.2);
+        }
+        h1, h2 {
+            margin-top: 0;
+        }
+        footer {
+            text-align: center;
+            padding: 15px;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Minha página</h1>
+    <p>Bem-vindo à minha página pessoal, Professor!👋</p>
+    <!-- Imagem do CEEP Lourdinha Guerra -->
+    <img src="data:image/png;base64,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" height="356" width="12" alt="CEEP Lourdinha Guerra">
+</header>
+
+<section>
+    <h2>Sobre Mim</h2>
+    <p> 
+        Meu nome é Wendel, tenho 16 anos e vou fazer 17 no dia 7 de abril.
+        Gosto de estudar e sempre busco melhorar meu conhecimento.
+        Gosto muito de programar e sempre procuro me aprofundar em cada conteudo.
+        Também sei muito o conteudo, sei fazer uma página bem, jajá vai ser um site!!
+    </p>
+</section>
+
+<section>
+    <h2>O que eu gosto de fazer?</h2>
+    <p>
+        No meu tempo livre, gosto de jogar eFootball e me divertir.
+        Também gosto muito de passar tempo com minha namorada, que é muito importante pra mim ❤️
+    </p>
+</section>
+
+<section>
+    <h2>Meus sonhos</h2>
+    <p>
+        Desde criança, eu sonho em me tornar engenheiro civil e construir um futuro melhor.
+        Também sonho em me casar!
+    </p>
+</section>
+
+<section>
+    <h2>Hobbies</h2>
+    <ul>
+        <li>Estudar, escutar música e jogar eFootball</li>
+    </ul>
+</section>
+
+<footer>
+    <p>- Minha página!!</p>
+</footer>
+
+</body>
+</html>
